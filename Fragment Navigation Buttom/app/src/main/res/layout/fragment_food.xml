@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="#f5deb3"
+    tools:context=".FoodFragment">
+
+    <!--  Menampilkan nama makanan  -->
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Nasi Pecel"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!--  Menampilkan gambar makanan  -->
+    <ImageView
+        android:id="@+id/imgFood"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/tvNama"
+        android:src="@drawable/nasipecel"
+        android:layout_marginTop="20dp" />
+
+    <!--  Menampilkan deskripsi makanan  -->
+    <TextView
+        android:id="@+id/tvDeskFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgFood"
+        android:layout_marginTop="30dp"
+        android:justificationMode="inter_word"
+        android:text="Nasi Pecel adalah makanan khas jawa timur yang banyak digemari oleh orang banyak, terutama orang jawa timur itu sendiri."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>

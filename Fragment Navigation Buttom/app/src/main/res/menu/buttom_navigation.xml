@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--  Membuat menu home  -->
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <!--  Membuat menu food  -->
+    <item
+        android:id="@+id/nav_food"
+        android:icon="@drawable/ic_food"
+        android:title="Food" />
+
+    <!--  Membuat menu drink  -->
+    <item
+        android:id="@+id/nav_drink"
+        android:icon="@drawable/ic_drink"
+        android:title="Drink" />
+
+    <!--  Membuat menu airport  -->
+    <item
+        android:id="@+id/nav_airport"
+        android:icon="@drawable/ic_airport"
+        android:title="Airport" />
+
+</menu>
